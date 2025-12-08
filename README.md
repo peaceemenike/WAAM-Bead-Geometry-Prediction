@@ -2,7 +2,7 @@
 
 ## Dataset Description
 
-The dataset contains WAAM process parameters and bead geometry measurements.\
+The dataset contains WAAM process parameters and bead geometry measurements.
 Columns include:
 
 -   Voltage\
@@ -45,9 +45,9 @@ Evaluation metrics include RMSE, MAE, and R².
 
 A multi-layer perceptron with:
 
--   Dense(64, activation = "relu")\
--   Dense(32, activation = "relu")\
--   Dense(16, activation = "relu")\
+-   Dense(64, activation = "relu")
+-   Dense(32, activation = "relu")
+-   Dense(16, activation = "relu")
 -   Dense(2) output layer
 
 Includes EarlyStopping and validation monitoring.
@@ -56,8 +56,8 @@ Includes EarlyStopping and validation monitoring.
 
 ## **Results Summary**
 
--   Both models perform well for AVERAGE prediction.\
--   VARIANCE is more challenging due to noise and nonlinearity.\
+-   Both models perform well for AVERAGE prediction.
+-   VARIANCE is more challenging due to noise and nonlinearity.
 -   Random Forest generally outperforms the Neural Network for stability prediction.
 
 A full comparison table is included in the report and notebook.
